@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo{
+	public static void main(String[] args) {
+	ArrayList mylist=new ArrayList();
+	//adding data into arrayList
+	mylist.add(100);
+	mylist.add(10.5);
+	mylist.add("Welcome");
+	mylist.add('A');
+	mylist.add(true);
+	mylist.add(100);
+	mylist.add(null);
+	mylist.add(null);
+
+	//size of arraylist
+	System.out.println("Size of an arraylist:"+mylist.size());
+	//printing arrayList
+	System.out.println("Printing Data from ArrayList:"+mylist);
+	//remove element from ArrayList
+	mylist.remove(5);
+	System.out.println("After removing:"+mylist);
+	}
+}
